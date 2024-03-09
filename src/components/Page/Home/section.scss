@@ -1,0 +1,126 @@
+.Section__input {
+    position: relative;
+    width: 530px;
+    max-height: 44px;
+    width: 100%;
+    margin-left: 250px;
+    font-family: "Muli";
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #30384C;
+    border: none;
+    background-color: #EBEBEB;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 20px;
+
+
+}
+
+.Section__div {
+    margin-top: -10px;
+    position: fixed;
+    display: flex;
+    gap: 33px;
+    align-items: center;
+    margin-left: -40px;
+    background-color: #FFF;
+}
+
+.section__item {
+
+    align-items: center;
+}
+
+.section__list {
+    width: 900px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brat {
+    margin-left: 15px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.section__btn {
+   background: none;
+    border: none;
+    position: absolute;
+    left: 895px;
+    cursor: pointer;
+}
+
+.section__render {
+    display: flex;
+    gap: 33px;
+    margin-top: 150px;
+    width: 1200px;
+
+    margin-left: 30px;
+}
+
+.section__render__img {
+    border-radius: 12px;
+    // border-top-left-radius: 15px;
+}
+
+// .mayda__div{
+//     z-index: 10;
+// }
+
+@media only screen and (max-width: 1462px) {
+    .section__render{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .section__btn{
+        left: 830px;
+    }
+    .section3{
+        margin-top: 350px;
+    }
+}
+
+@media only screen and (max-width: 837px) {
+    .section__render{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .section__btn{
+        left: 830px;
+    }
+    .section3{
+        margin-top: 780px;
+    }
+    .section__render2{
+        margin-top: 950px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .section__navlink{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 651px) {
+    .section__render{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    // .section__btn{
+    //     left: 830px;
+    // }
+    .section3{
+        margin-top: 950px;
+    }
+    .section__render2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

@@ -1,0 +1,156 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    // padding: 0 20px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+}
+
+
+.header__btn {
+    border: none;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.btndiv {
+    display: flex;
+    gap: 15px;
+}
+
+.header__btn2 {
+    display: none;
+    border: none;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.header__btn3 {
+    display: block;
+    border: none;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.Header__ul {
+    list-style: none;
+    max-width: 200px;
+    width: 100%;
+
+}
+
+.header__divv {
+    display: block;
+    position: fixed;
+    height: 800px;
+    // overflow: scroll;
+    width: 230px;
+    z-index: 1;
+    background-color: #FFF;
+
+}
+
+.none {
+    display: none;
+}
+
+.heacer__item {
+    margin-bottom: 15px;
+}
+
+.Header__link {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 5px 5px;
+    font-family: "Muli";
+    border-radius: 20px;
+    color: #898989;
+    transition: all 0.4s ease-out;
+
+    // &:hover {
+    //     border-radius: 20px;
+    //     background-color: rgb(231, 225, 225);
+    //     color: white;
+    // }
+}
+
+.select {
+    transition: all 1s ease-out;
+    border-radius: 5px;
+    border: 0.2px solid #898989;
+
+    &:hover {
+        background-color: red;
+        color: white;
+    }
+}
+
+
+
+.header__list2 {
+    margin-top: 50px;
+}
+
+.subs {
+    border-radius: 50%;
+}
+
+.Hedare__item2:nth-child(1) {
+    margin-top: 25px;
+}
+
+.Hedare__item2 {
+    margin-top: 15px;
+}
+
+.btndiv {
+    margin-bottom: 15px;
+}
+
+.Header__link.active {
+    color: red;
+}
+
+// ///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+.pprofilrasmlar {
+    border-radius: 50%;
+}
+
+.profilname {
+    font-family: "Muli";
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #898989;
+}
+
+.profilli {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+
+.profiliessss {
+    font-family: "Muli";
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000000;
+}
+
+.item{
+    width: 150px;
+}
+
+.dontwork {
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+//////////////////////////////////////////////////////////////////////////////////

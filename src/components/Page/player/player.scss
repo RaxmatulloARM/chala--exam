@@ -1,0 +1,103 @@
+.player__info {
+    margin-left: 250px;
+    margin-top: 80px;
+
+    .player__video {
+        border-radius: 14px;
+    }
+
+    .player__title {
+        width: 570px;
+        font-family: "Muli";
+        font-size: 28px;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #000;
+    }
+}
+
+.player__shares {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+    height: 50px;
+
+    .shares__title {
+        font-family: "Muli";
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #000;
+        opacity: 0.3;
+    }
+
+    .shares__list {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+
+
+    }
+}
+
+.player__about {
+    margin-top: 50px;
+}
+
+.about__texts {
+    display: flex;
+
+    .about__title {
+        width: 161px;
+        font-family: "Muli";
+        font-size: 26px;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #000
+    }
+
+    .about__pub {
+        width: 161px;
+        font-family: "Muli";
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: rgb(194, 194, 194);
+    }
+
+    .about__text {
+        width: 820px;
+        height: 88px;
+        font-family: "Muli";
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .about__show {
+        font-family: "Muli";
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: rgb(194, 194, 194);
+
+    }
+
+    .about__btn {
+        background-color: #FF0000;
+        padding: 20px 40px;
+        border-radius: 30px;
+        width: 114px;
+        height: 20px;
+        margin-top: 25px;
+        margin-left: 90px;
+    }
+}

@@ -1,0 +1,207 @@
+.channel__img {
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.text {
+    display: flex;
+    margin-left: 250px;
+    margin-top: 28px;
+
+    .channel__profile {
+        border-radius: 50px;
+    }
+
+    .title__info {
+        .channel__title {
+            Font: "Muli";
+            Font-weight: 700;
+            Font-size: 26px;
+            width: 200px;
+            margin-left: 16px;
+
+        }
+
+        .title__sub {
+            Font: "Muli" serif;
+            Font-weight: 400;
+            Font-size: 13px;
+            opacity: 0.5;
+            margin-left: 16px;
+            margin-top: -22px;
+        }
+    }
+
+    .notification__bn {
+        display: flex;
+        margin-left: 1120px;
+
+        .sp__button {
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+
+        .channel__sub {
+            background-color: #FF0000;
+            padding: 20px 40px;
+            border-radius: 30px;
+            width: 114px;
+            height: 20px;
+        }
+    }
+}
+
+.channel__heading {
+    display: flex;
+    margin-left: 210px;
+    margin-top: 10px;
+
+    .heading__list {
+        display: flex;
+        gap: 69px;
+
+        .heading__link {
+
+            font-family: "Muli";
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #000;
+        }
+    }
+}
+
+.channel__hero {
+    display: flex;
+
+    .channel__video {
+        display: flex;
+        width: 1120px;
+        height: 250px;
+        margin-left: 250px;
+
+        .video__texts {
+            margin-left: 32px;
+            margin-top: -4px;
+        }
+
+        .video__title {
+            width: 431px;
+            // line-height: 20px;
+            font-family: "Muli";
+            font-size: 26px;
+            line-height: 35px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #000;
+        }
+
+        .video__text {
+            width: 548px;
+            font-family: "Muli";
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #000;
+            opacity: 0.8;
+        }
+
+        .video__views {
+            font-family: "Muli";
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #000;
+            opacity: 0.4;
+        }
+    }
+}
+
+.channel__recomended {
+    width: 188px;
+    margin-left: 240px;
+    margin-top: -63px;
+
+    .rd__title {
+        width: 174px;
+        font-family: "Muli";
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #000;
+        opacity: 0.4;
+    }
+
+    .rd__item {
+        display: flex;
+        width: 188px;
+        margin-top: 27px;
+        margin-left: -40px;
+
+        .rd_profile {
+            width: 528px;
+            font-family: "Muli";
+            font-size: 18px;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #000;
+            margin-left: 20px;
+        }
+    }
+}
+
+.channel__videos {
+    margin-left: 250px;
+    margin-top: 60px;
+    
+    .videos__titles {
+        width: 1550px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .videos__title {
+            width: 528px;
+            font-family: "Muli";
+            font-size: 26px;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #000;
+        }
+        
+    }
+
+    .videos__list {
+        display: flex;
+        gap: 110px;
+        margin-left: -40px;
+
+        .videos__img {
+            border-radius: 14px;
+        }
+
+        .videos__post {
+            font-family: "Muli";
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #000;
+        }
+        .videos__text {
+            font-family: "Muli";
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #000;
+            opacity: 0.4;
+        }
+    }
+}
